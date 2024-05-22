@@ -36,7 +36,7 @@ async function startBot() {
 
     // Event listener for when the bot spawns in the world
     bot.on('spawn', async () => {
-        bot.chat('/login 1234567'); // Send login command
+        bot.chat('/login thegold780'); // Send login command
         await sleep(1000); // Wait for 4 seconds to ensure login is processed
         console.log('Đã nhập mk'); // Log to console
         activateItemContinuously(); // Start the continuous activation loop
